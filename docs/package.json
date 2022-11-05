@@ -3,11 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
+    "build": "hexo clean && hexo generate",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "pd": "git add -A && git commit -m \"some updates\" && git push origin main && hexo generate && hexo deploy"
+    "push": "hexo clean && git add -A && git commit -m \"some updates\" && git push origin main"
   },
   "hexo": {
     "version": "5.4.2"
