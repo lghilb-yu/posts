@@ -106,4 +106,3 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/lghilb-yu/posts.git
-  token: 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
